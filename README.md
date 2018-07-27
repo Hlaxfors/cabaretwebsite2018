@@ -1,1 +1,3 @@
-cabaretwebsite2018
+# Fitzroy High Cabaret Website
+
+ummm... yeah that's kinda it...
