@@ -1,0 +1,132 @@
+head {
+    
+}
+
+body {
+    --red-color: #ea2728;
+    --black-color: black;
+
+    /*background-image: url("./resauces/Img/BuildingsLatest.png");*/
+    background-repeat-y: no-repeat;
+    background-size: contain;
+    font-size: 12px;
+    background-color: var(--black-color);
+}
+
+a {
+    color: var(--red-color);
+}
+
+.rewindlogo {
+    width: 7em;
+    margin-left: 33.4px;
+}
+
+.maincontainer {
+    top: 0px;
+    position: absolute;
+    margin-top: 10px;
+}
+
+.buildings {
+    width: 100%;
+    padding-top: 3em;
+    background-color: var(--black-color);
+}
+
+
+.rewindlogoline {
+    width: 50px;
+    background-color: var(--red-color);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title {
+    color: var(--red-color);
+    padding-top: 0em;
+    padding-left: 1em;
+    font-weight: 700;
+}
+
+.maintitle {
+    font-size: 3.332em;
+    letter-spacing: .5em;
+}
+
+.undertitle {
+    font-size: 1.65em;
+    letter-spacing: .38em;
+}
+
+.content {
+    padding-top: 1em;
+    background-color: var(--red-color);
+    height: fit-content;
+}
+
+.header {
+
+}
+
+.block {
+    /* background-color: var(--black-color); */
+    /* color: var(--red-color); */
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    border-radius: 5px;
+}
+
+.titlecol {
+    max-width: 38.71em;
+}
+
+.galtitle {
+    font-family: cursive;
+    font-size: 50px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.galImgLeft {
+    width: 92%;
+}
+
+.galImgTopLeft {
+    width: 46%;
+    transform: rotate(-1deg);
+}
+
+.galImgTopRight {
+    width: 49%;
+    transform: rotate(1deg);
+}
+
+.galImgBottom {
+    width: 100%;
+    transform: rotate(-1deg);
+}
+
+.gal {
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.gallery {
+
+}
+
+.location {
+
+}
+
+.locationLeft {
+    width: 100%;
+    height: 100%;
+}
+
+.locationRight {
+
+}
