@@ -26,6 +26,7 @@ a {
     top: 0px;
     position: absolute;
     margin-top: 10px;
+    width: 100%;
 }
 
 .buildings {
@@ -100,7 +101,7 @@ a {
 }
 
 .galImgTopRight {
-    width: 49%;
+    width: 48%;
     transform: rotate(1deg);
 }
 
@@ -115,7 +116,7 @@ a {
 }
 
 .gallery {
-
+    width: 100%;
 }
 
 .location {
