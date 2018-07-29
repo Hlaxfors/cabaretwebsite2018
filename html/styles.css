@@ -120,7 +120,7 @@ a {
 }
 
 .location {
-
+    width: 100%;
 }
 
 .locationLeft {
@@ -130,4 +130,21 @@ a {
 
 .locationRight {
 
+}
+
+.pageTabContainer {
+    width: 100%;
+    text-align: right;
+}
+
+.pageTab {
+    font-size: 3.332em;
+    letter-spacing: .5em;
+}
+
+/* EDITING BOOTSTRAP */
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
 }
