@@ -1,3 +1,3 @@
 # Fitzroy High Cabaret Website
 
-ummm... yeah that's kinda it...
+this is the releases line
