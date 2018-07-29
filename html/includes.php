@@ -38,6 +38,12 @@ function generateHeader(String $activePage)
         </div>
     </div>
 </div>
+<!--Background-->
+<div class="row background">
+    <div class="mx-auto">
+        <img class="buildings" src="./resources/icons/buildings/BuildingsRed.png">
+    </div>
+</div>
 
 <?php
 

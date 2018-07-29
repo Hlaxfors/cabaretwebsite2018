@@ -1,6 +1,6 @@
 <?php
 
-include './includes/header.php';
+include './includes.php';
 
 ?>
 
@@ -20,12 +20,6 @@ include './includes/header.php';
 <body>
     <div class="maincontainer">
         <?=generateHeader('tickets')?>
-        <!--Background-->
-        <div class="row background">
-            <div class="mx-auto">
-                <img class="buildings" src="./resources/icons/buildings/BuildingsRed.png">
-            </div>
-        </div>
         <!-- Content -->
         <div class="row content">
             
