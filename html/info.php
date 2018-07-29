@@ -1,3 +1,10 @@
+<?php
+
+include './includes/header.php';
+
+?>
+
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -11,40 +18,8 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <div class="container-fluid maincontainer">
-        <!-- Header -->
-        <div class="row header">
-            <div class="col-lg-4 title">
-                <div class="mx-auto">
-                    <span class="maintitle">
-                        PLAYBACK:
-                    </span>
-                    <br>
-                    <span class="undertitle">
-                        SAVE THE SPIEGLETENT
-                    </span>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="row">
-                    <div class="mx-auto">
-                        <img class="rewindlogo" src="./resources/icons/logo/rewindlogo.png">
-                        <hr class="rewindlogoline">
-                        <a href="./index.html">Home</a>
-                        <a href="./info.html">Info</a>
-                        <a href="./location.html">Location</a>
-                        <a href="./tickets.html">Tickets</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 title">
-                <div class="pageTabContainer">
-                    <span class="pageTab">
-                        Info
-                    </span>
-                </div>
-            </div>
-        </div>
+    <div class="maincontainer">
+        <?=generateHeader('info')?>
         <!--Background-->
         <div class="row background">
             <div class="mx-auto">

@@ -1,3 +1,10 @@
+<?php
+
+include './includes/header.php';
+
+?>
+
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -11,40 +18,8 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <div class="container-fluid maincontainer">
-        <!-- Header -->
-        <div class="row header">
-            <div class="col-lg-4 title">
-                <div class="mx-auto">
-                    <span class="maintitle">
-                        PLAYBACK:
-                    </span>
-                    <br>
-                    <span class="undertitle">
-                        SAVE THE SPIEGLETENT
-                    </span>
-                </div>
-            </div>
-            <div class="col-lg-4">
-                <div class="row">
-                    <div class="mx-auto">
-                        <img class="rewindlogo" src="./resources/icons/logo/rewindlogo.png">
-                        <hr class="rewindlogoline">
-                        <a href="./index.html">Home</a>
-                        <a href="./info.html">Info</a>
-                        <a href="./location.html">Location</a>
-                        <a href="./tickets.html">Tickets</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 title">
-                <div class="pageTabContainer">
-                    <span class="pageTab">
-                        Tickets
-                    </span>
-                </div>
-            </div>
-        </div>
+    <div class="maincontainer">
+        <?=generateHeader('location')?>
         <!--Background-->
         <div class="row background">
             <div class="mx-auto">
@@ -53,7 +28,18 @@
         </div>
         <!-- Content -->
         <div class="row content">
-            
+            <div class="row location">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJybn7Uh5D1moRx4FeofSRk1o&key=AIzaSyCdAC_XKtTFFy65yNmw8zg4ipVTnkvn7fk" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     
