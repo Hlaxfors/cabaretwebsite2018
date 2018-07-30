@@ -22,11 +22,19 @@ include './includes.php';
         <?=generateHeader('info')?>
         <!-- Content -->
         <div class="row content">
-            <div class="row">
+            <div class="row infoContainer">
                 <span class="when">
-                Tuesday, Aug 21 \\ Wednesday, Aug 14 \\ Thursday, Aug 23
-                <br>
-                7:00
+                    <span class="whenTitle">
+                    When?
+                    </span>
+                    <br>
+                    Wednesday, Aug 14 \\ Thursday, Aug 23
+                    <br>
+                    <span class="time">7:00PM</span>
+                    <span class="time">7:00PM</span>
+                </span>
+                <span class="ticketButton">
+                    input
                 </span>
             </div>
         </div>
