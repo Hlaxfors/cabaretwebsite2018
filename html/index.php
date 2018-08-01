@@ -64,7 +64,7 @@ include './includes.php';
                     When is it?
                     </span>
                     <br>
-                    Wednesday, Aug 14 \\ Thursday, Aug 23
+                    Wednesday, Aug 22 \\ Thursday, Aug 23
                     <br>
                     <span class="time">7:00PM</span>
                     <span class="time">7:00PM</span>
