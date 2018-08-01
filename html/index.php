@@ -58,6 +58,30 @@ include './includes.php';
                     </div>
                 </div>
             </div>
+            <div class="row infoContainer">
+                <span class="when">
+                    <span class="whenTitle">
+                    When is it?
+                    </span>
+                    <br>
+                    Wednesday, Aug 14 \\ Thursday, Aug 23
+                    <br>
+                    <span class="time">7:00PM</span>
+                    <span class="time">7:00PM</span>
+                </span>
+                <div class="row location">
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJybn7Uh5D1moRx4FeofSRk1o&key=AIzaSyCdAC_XKtTFFy65yNmw8zg4ipVTnkvn7fk" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     

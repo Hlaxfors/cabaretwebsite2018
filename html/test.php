@@ -56,4 +56,4 @@ function test(String $activePage)
 
 
 
-<?=test('test') ?>
+<?php echo test('test') ?>

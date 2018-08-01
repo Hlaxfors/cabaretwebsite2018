@@ -18,13 +18,11 @@ include './includes.php';
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <div class="maincontainer">
         <?=generateHeader('tickets')?>
         <!-- Content -->
         <div class="row content">
             <embed class="bookTicket" src="https://www.trybooking.com/book/sessions?eid=393717">
         </div>
-    </div>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
