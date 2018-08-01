@@ -21,7 +21,9 @@ include './includes.php';
         <?=generateHeader('tickets')?>
         <!-- Content -->
         <div class="row content">
-            <embed class="bookTicket" src="https://www.trybooking.com/book/sessions?eid=393717">
+            <div class="ticketContainer">
+                <embed class="bookTicket" src="https://www.trybooking.com/book/sessions?eid=393717">
+            </div>
         </div>
     
     <!-- Optional JavaScript -->

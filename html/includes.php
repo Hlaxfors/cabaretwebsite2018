@@ -24,8 +24,6 @@ function generateHeader(String $activePage)
                 <img class="rewindlogo" src="./resources/icons/logo/rewindlogo.png">
                 <hr class="rewindlogoline">
                 <a href="./index.php">Home</a>
-                <a href="./info.php">Info</a>
-                <a href="./location.php">Location</a>
                 <a href="./tickets.php">Tickets</a>
             </div>
         </div>

@@ -70,14 +70,32 @@ include './includes.php';
                     <span class="time">7:00PM</span>
                 </span>
                 <div class="row location">
-                    <div class="col-lg-6">
-                        <div class="row">
-                            <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJybn7Uh5D1moRx4FeofSRk1o&key=AIzaSyCdAC_XKtTFFy65yNmw8zg4ipVTnkvn7fk" allowfullscreen></iframe>
+                    <div class="row entrance">
+                        <div class="col-lg-3">
+                            <!-- padding -->
+                        </div>
+                        <div class="col-lg-6 entryText">
+                            <span class="entryTitle">
+                                ENTRY
+                            </span>
+                            <br>
+                            35 Johnston Street, Collingwood
+                            <br>
+                            Limited parking along Johnston and Wellington streets.
+                        </div>
+                        <div class="col-lg-3">
+                            <!-- padding -->
                         </div>
                     </div>
-                    <div class="col-lg-6">
-                        <div class="row">
-                            
+                    <div class="row mapContainer">
+                        <div class="col-lg-3">
+                            <!-- padding -->
+                        </div>
+                        <div class="col-lg-6">
+                            <iframe class="map" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJybn7Uh5D1moRx4FeofSRk1o&key=AIzaSyCdAC_XKtTFFy65yNmw8zg4ipVTnkvn7fk" allowfullscreen></iframe>
+                        </div>
+                        <div class="col-lg-3">
+                            <!-- padding -->
                         </div>
                     </div>
                 </div>
