@@ -1,3 +1,7 @@
+html {
+    background-color: var(--red-color);
+}
+
 head {
     
 }
@@ -16,15 +20,17 @@ a {
     color: black;
 }
 
-.cabsax {
-    width: 10em
+.rewindlogo {
+    width: 7em;
 }
 
-.maincontainer {
+/* .maincontainer {
     top: 0px;
     position: absolute;
     margin-top: 10px;
-}
+    width: 100%;
+    height: 1000px;
+} */
 
 .buildings {
     width: 100%;
@@ -47,11 +53,19 @@ a {
     margin-bottom: 10px;
 }
 
-.contentM {
-    background-color: var(--bg-color);
-    color: black;
-    width: 60em;
-    height: 10em;
+.content {
+    padding-top: 1em;
+    background-color: var(--red-color);
+    height: 100%;
+}
+
+.header {
+    margin-top: 10px;
+}
+
+.block {
+    /* background-color: var(--black-color); */
+    /* color: var(--red-color); */
     display: block;
     padding-left: 14em;
     padding-top: 2.5em;
@@ -63,4 +77,140 @@ a {
 
 .middle {
     font-size: 40px;
+}
+
+.galImgLeft {
+    width: 92%;
+}
+
+.galImgTopLeft {
+    width: 46%;
+    transform: rotate(-1deg);
+}
+
+.galImgTopRight {
+    width: 48%;
+    transform: rotate(1deg);
+}
+
+.galImgBottom {
+    width: 100%;
+    transform: rotate(-1deg);
+}
+
+.gal {
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.gallery {
+    width: 100%;
+}
+
+.location {
+    height: 100%;
+    width: 100%;
+}
+
+.locationLeft {
+    width: 100%;
+    height: 100%;
+}
+
+.locationRight {
+
+}
+
+.pageTabContainer {
+    width: 100%;
+    text-align: right;
+}
+
+.pageTab {
+    font-size: 3.332em;
+    letter-spacing: .5em;
+}
+
+
+
+/* EDITING BOOTSTRAP */
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.when {
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    height: fit-content;
+}
+
+.infoContainer {
+    width: 100%;
+    height: 100%;
+}
+
+.time {
+    padding: 0px 80px 0px 80px;
+}
+
+.whenTitle {
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.bookTicket {
+    width: 100%;
+    height: 100%;
+}
+
+.ticketButtonContainer {
+    height: fit-content;
+    text-align: center;
+    width: 100%;
+
+}
+
+.ticketButtonBubble {
+    width: 70%;
+    height: 1%;
+    background-color: black;
+}
+
+.ticketButton {
+
+}
+
+.map {
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.mapContainer {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 50px;
+}
+
+.entrance {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+
+.entryText {
+    font-size: 30px;
+}
+
+.entryTitle {
+    font-size: 40px;
+}
+
+.ticketContainer {
+    width: 100%;
+    height: 1000px;
 }
