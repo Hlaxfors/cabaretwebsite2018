@@ -10,12 +10,9 @@ function generateHeader(String $activePage)
     <div class="col-lg-4 title">
         <div class="mx-auto">
             <span class="maintitle">
-                PLAYBACK:
+                PLAYBACK
             </span>
             <br>
-            <span class="undertitle">
-                SAVE THE SPIEGLETENT
-            </span>
         </div>
     </div>
     <div class="col-lg-4">
