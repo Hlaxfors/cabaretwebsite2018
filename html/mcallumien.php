@@ -20,7 +20,7 @@
 
         <img class="altar" src="./resources/photos/mcallumien/altar.png" alt="fuk, the altar is gone">
         <div class="jamesContainer">    
-            <img class="james" src="./resources/photos/mcallumien/JamesCrop.png" alt="fuk, james is gone">
+            <img class="james" src="./resources/photos/mcallumien/JamesCropImproved.png" alt="fuk, james is gone">
         </div>
         <img class="church" src="./resources/photos/mcallumien/church.jpg" alt="fuk, church is gone">
 
