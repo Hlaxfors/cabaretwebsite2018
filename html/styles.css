@@ -2,16 +2,9 @@ html {
     background-color: var(--red-color);
 }
 
-head {
-    
-}
-
 body {
     --red-color: #ea2728;
     --black-color: black;
-
-    /*background-image: url("./resauces/Img/BuildingsLatest.png");*/
-    background-repeat-y: no-repeat;
     background-size: contain;
     font-size: 12px;
     background-color: var(--black-color);
@@ -25,20 +18,11 @@ a {
     width: 7em;
 }
 
-/* .maincontainer {
-    top: 0px;
-    position: absolute;
-    margin-top: 10px;
-    width: 100%;
-    height: 1000px;
-} */
-
 .buildings {
     width: 100%;
     padding-top: 3em;
     background-color: var(--black-color);
 }
-
 
 .rewindlogoline {
     width: 50px;
@@ -75,8 +59,6 @@ a {
 }
 
 .block {
-    /* background-color: var(--black-color); */
-    /* color: var(--red-color); */
     display: block;
     height: 100%;
     width: 100%;
@@ -131,10 +113,6 @@ a {
 .locationLeft {
     width: 100%;
     height: 100%;
-}
-
-.locationRight {
-
 }
 
 .pageTabContainer {
@@ -196,10 +174,6 @@ a {
     background-color: black;
 }
 
-.ticketButton {
-
-}
-
 .map {
     border-radius: 10px;
     height: 100%;
@@ -210,12 +184,6 @@ a {
     width: 100%;
     height: 400px;
     margin-bottom: 50px;
-}
-
-.entrance {
-    width: 100%;
-    height: fit-content;
-    text-align: center;
 }
 
 .entryText {
@@ -233,4 +201,15 @@ a {
 a:hover {
     color: #ff7d7d;
     text-decoration: none;
+}
+
+.downloadForm {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.invalidKeyError {
+    color: #ffdf53;
 }
