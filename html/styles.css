@@ -7,11 +7,11 @@ body {
     --black-color: black;
     background-size: contain;
     font-size: 12px;
-    background-color: var(--black-color);
+    background-color: black;
 }
 
 a {
-    color: var(--red-color);
+    color: black;
 }
 
 .rewindlogo {
@@ -20,36 +20,25 @@ a {
 
 .buildings {
     width: 100%;
-    padding-top: 3em;
-    background-color: var(--black-color);
+    background-color: var(--bg-color);
 }
 
-.rewindlogoline {
+.title {
+    padding-top: 19em;
+}
+
+.test1 {
+    background-color: var(--bg-color);
+}
+
+.cabsaxline {
     width: 50px;
-    background-color: var(--red-color);
+    background-color: black;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.title {
-    color: var(--red-color);
-    padding-top: 0em;
-    padding-left: 1em;
-    font-weight: 700;
-}
-
-.maintitle {
-    font-size: 3.332em;
-    letter-spacing: .5em;
-}
-
-.undertitle {
-    font-size: 1.65em;
-    letter-spacing: .38em;
-}
-
 .content {
-    padding-top: 1em;
     background-color: var(--red-color);
     height: 100%;
 }
@@ -60,21 +49,16 @@ a {
 
 .block {
     display: block;
-    height: 100%;
-    width: 100%;
-    text-align: left;
-    border-radius: 5px;
+    padding-left: 14em;
+    padding-top: 2.5em;
 }
 
-.titlecol {
-    max-width: 38.71em;
+.content {
+    padding-top: 100px;
 }
 
-.galtitle {
-    font-family: cursive;
-    font-size: 50px;
-    margin-left: 20px;
-    margin-top: 25px;
+.middle {
+    font-size: 40px;
 }
 
 .galImgLeft {

@@ -8,12 +8,6 @@ function generateHeader(String $activePage)
 <!-- Header -->
 <div class="row header">
     <div class="col-lg-4 title">
-        <div class="mx-auto">
-            <span class="maintitle">
-                PLAYBACK
-            </span>
-            <br>
-        </div>
     </div>
     <div class="col-lg-4">
         <div class="row">
@@ -23,11 +17,6 @@ function generateHeader(String $activePage)
         </div>
     </div>
     <div class="col-lg-4 title">
-        <div class="pageTabContainer">
-            <span class="pageTab">
-                <?=$activePage ?>
-            </span>
-        </div>
     </div>
 </div>
 <!--Background-->
