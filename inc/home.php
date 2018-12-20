@@ -1,4 +1,5 @@
-Welocome the cabaret video download site. Enter your email address and licence key. <br>
+Welocome to the cabaret video download site. <br>
+Enter your email address and licence key and select a quality, to download. <br>
 Keys can be purcased from the front office. <br>
 <br>
 
